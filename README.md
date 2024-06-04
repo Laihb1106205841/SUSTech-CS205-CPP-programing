@@ -4,7 +4,7 @@ Semester: 2024 Spring
 
 Lecturer: Prof. Shiqi Yu
 
-| **Project** | **Name**                            | **Description** | **Important Point**                                | **Classification**       | **我的分数** |
+| **Project** | **Name**                            | **Description** | **Important Point**                                | **Classification**       | **Score** |
 |-------------|-------------------------------------|-----------------|----------------------------------------------------|--------------------------|----------|
 | 1           | A Simple Calculator                 | "简单”的计算器        | C程序初步了解，基本数据结构的实现，数据的底层存储，内存管理                     | basic idea               | 97       |
 | 2           | Simple Matrix Multiplication        | C和Java的区别       | C是如何编译与运行的，计算机底层是怎么样的                              | understanding the system | 99       |
