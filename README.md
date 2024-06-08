@@ -6,28 +6,28 @@ Lecturer: Prof. Shiqi Yu
 
 | **Project** | **Name**                            | **Description** | **Important Point**                                | **Classification**       | **Score** |
 |-------------|-------------------------------------|-----------------|----------------------------------------------------|--------------------------|----------|
-| 1           | A Simple Calculator                 | "�򵥡��ļ�����        | C��������˽⣬�������ݽṹ��ʵ�֣����ݵĵײ�洢���ڴ����                     | basic idea               | 97       |
-| 2           | Simple Matrix Multiplication        | C��Java������       | C����α��������еģ�������ײ�����ô����                              | understanding the system | 99       |
-| 3           | Improved Matrix Multiplication in C | ����˷�̽��          | ��ô������ϵͳ�Ż����򣬳�����C�Ż���������ѭ��չ�����������š��ֿ顢SIMD��OpenMP���м��� | boosting in the system   | 98       |
-| 4           | A Class to Describe a Matrix        | ����������          | ����C++����ô���ģ�������һ��ϵͳ����ι���ϵͳ�еĸ���ģ��                   | design in the system     | 98       |
-| 5           | GPU Acceleration with CUDA          | CUDA���          | GPU��ʲô�����ټ�����ζ��ʲô����һ���������ϵ�ṹ������ô�� ��                 | application in system    |     96     |
+| 1           | A Simple Calculator                 | "简单”的计算器        | C程序初步了解，基本数据结构的实现，数据的底层存储，内存管理                     | basic idea               | 97       |
+| 2           | Simple Matrix Multiplication        | C和Java的区别       | C是如何编译与运行的，计算机底层是怎么样的                              | understanding the system | 99       |
+| 3           | Improved Matrix Multiplication in C | 矩阵乘法探究          | 怎么样根据系统优化程序，常见的C优化技术，如循环展开、矩阵重排、分块、SIMD与OpenMP并行技术 | boosting in the system   | 98       |
+| 4           | A Class to Describe a Matrix        | 矩阵类的设计          | 工程C++是怎么样的，如何设计一个系统，如何管理系统中的各个模块                   | design in the system     | 98       |
+| 5           | GPU Acceleration with CUDA          | CUDA编程          | GPU是什么，加速计算意味着什么，下一代计算机体系结构会是怎么样 的                 | application in system    |     96     |
 
-# ʲô����++��
+# 什么是于++？
 
-������������˺ܶ��ϵѧ����һ���򵥵ġ�Yu���֣���ζ�Ÿ��ֲ�ȷ���������⣬
-���Ѷȡ����ſ���������̸��ɫ�䣬����������ѧ��ĩ����ʦ̸����ѧ������ѡ C/C++ʱ����ʦ�󾪣������С�ģ���˵���ſι������ܶ࣡����Ȼ��������һ��ϲ�� Project ���ˣ���Ҳ��ϲ��������˵ɶ����ɶ��5 �� Project ��ʹ���Ҽ��뵽����ѧ�ڵ� 100 ����ù������������� Project ������ͻȻ��һ�������룬�� 5 �� Project ������ζ��ʲô����ΪʲôҪ���� 5 �� Project��
+这个问题困扰了很多计系学生。一个简单的“Yu”字，意味着给分不确定，不理解，
+高难度。这门课令许多人谈虎色变，以至于我上学期末跟导师谈起，这学期我想选 C/C++时，导师大惊：“万分小心！听说那门课工作量很多！”。然而，我是一个喜欢 Project 的人，我也不喜欢听别人说啥就是啥，5 个 Project 驱使着我加入到了这学期的 100 个倒霉蛋里。但是在三次 Project 结束后，突然有一天我在想，这 5 个 Project 到底意味着什么？我为什么要做这 5 个 Project？
 
-Project1 �ǴӼ���������������㿪ʼ�ġ��������� Java,Python ����Ǵ��ʱ���Ǻܹ�ע�������ͣ����� float �� double���������Щ���Զ��кܺõ��������װ�� api����ʵ�� Project1 ��ʱ��ָ�롢ջ���������ʽ��ʼ��������ע�⡣Project1 ����������ǣ�C/C++��ע�ڵײ㣬���Ǳ� Java �����ȸ�С������ϸ�������ԡ����������������һ��Сϵͳ���������鵽��ϸ���ĸо���
+Project1 是从计算器这类基础运算开始的。在以往的 Java,Python 里，我们大多时候不是很关注数据类型，比如 float 和 double，亦或者这些语言都有很好的数据类封装及 api。在实现 Project1 的时候，指针、栈、正则表达式开始引起我们注意。Project1 是想告诉我们，C/C++关注于底层，它是比 Java 颗粒度更小、更精细化的语言。在这门语言上设计一个小系统，才能体验到精细化的感觉。
 
-Project2 �� Java �� C �ıȽϡ������ڹ�ȥ���Ż�����ֻ�ǹ�ע�㷨������Ż��������֦�����õؾֲ����������ǣ����ǵĴ��������ִ�еģ�C Ϊʲô���� Java���ƺ��о���ͬѧ���١�Project2
-����������ǣ�C/C++�ľ�ϸ����Եײ�Ľӽ���ʹ�����ĳ������ܸ��ߣ��и�����Ż�����ͬʱ���������Ӳ�����ɵĸ���ϵͳ�� C/C++ִ����������ӣ�ִ��ʱ����һ�Ŷ��ۡ�
+Project2 是 Java 和 C 的比较。我们在过去的优化里大多只是关注算法层面的优化，比如剪枝、更好地局部搜索。但是，我们的代码是如何执行的，C 为什么快于 Java，似乎研究的同学更少。Project2
+是想告诉我们，C/C++的精细化与对底层的接近，使得它的程序性能更高，有更多的优化方向。同时，计算机软硬件构成的复杂系统让 C/C++执行情况更复杂，执行时不能一概而论。
 
-Project3 ���Ż�����������˷������˽⵽ C/C++�ĸ����ܺ����ǿ�ʼʵ�����������Ǹ�ϰ�������� SIMD��OpenMP���������Ǿ��ȵķ��֣�OpenBLAS �Ǹ�ǿ���Ķ��֡�ͻȻ�����ǵ� toy ����һ
-�������Ż��ĸ���ϵͳ���۷���Project3 ����������ǣ���Ϊһ�ž�ϸ�����ԣ���������Ա�� C/C++�Գ�������ϵͳ�Ե��Ż���������ѧϰ�Ż�ͬʱ��ҲҪ�������������������ϵͳ���̡�
+Project3 是优化浮点数矩阵乘法。在了解到 C/C++的高性能后，我们开始实践技术。我们复习并运用了 SIMD，OpenMP。但是我们惊讶的发现，OpenBLAS 是个强劲的对手。突然，我们的 toy 程序被一
+个精密优化的复杂系统所折服。Project3 是想告诉我们，作为一门精细的语言，无数程序员用 C/C++对程序做了系统性的优化，我们在学习优化同时，也要明白这门语言所创造的系统工程。
 
-Project4 �Ǿ��������ơ���������ǻ�ο� cv::Mat,ѧϰ����һ�����͹����ڵ�һ���ࡣ��֮ǰ�ĵײ���Ż���ȣ�������Ժ�ϵͳռ������������װ�������ڴ�й¶���� copy����������ؿ�ʼ
-���á�Project4 ����������ǣ���ο���һ��ϵͳ������� C/C++�ϵͳ����ι�����ϵͳ��
+Project4 是矩阵类的设计。在这里，我们会参考 cv::Mat,学习构建一个大型工程内的一个类。跟之前的底层和优化相比，这回特性和系统占据了主导。封装管理、内存泄露、软 copy、运算符重载开始
+运用。Project4 是想告诉我们，如何开发一个系统，如何用 C/C++搭建系统，如何管理好系统。
 
-Project5 ���� Project �������磬������ CUDA �� GPU �Ļ�Ծ�������ǿ��� C/C++���ⷽ��Ĵ����ʣ�������,���ǿ��������Ź��ϵ������� GPU ��Ӧ���ϣ�������21���͵����ǣ��ڼ��ټ��㡢���ѧϰ���˹����ܵȷ�������ʡ���ʱ���ǻ����ף�C/C++��һ�Ź��ϡ��������Ի�Ծ�ڹ�ҵ������ԣ��˽��������ԣ��ͺ������ڸ���ȥ�Ĵ�ʦ�Ի������׳���ı�����ʲô����̴���������������ֽ�����δ���
+Project5 往年 Project 是神经网络，这两年 CUDA 与 GPU 的活跃，让我们看到 C/C++在这方面的大放异彩，在这里,我们看到，这门古老的语言在 GPU 的应用上，带领着21世纪的我们，在加速计算、深度学习、人工智能等方面大放异彩。这时我们会明白，C/C++是一门古老、但至今仍活跃在工业界的语言，了解这门语言，就好像是在跟过去的大师对话，明白程序的本质是什么，编程从哪里来，计算机又将走向何处。
 
-C/C++�� Project �Ǳ仯�ģ�ÿ������������������綼������������������ģ�������Ǵ�������������Ѿ������ˣ����Ż�����ϵͳ����Ӧ�á�������ѧϰ���ŵײ����Ե����̡������������Ծ����ġ���ˣ����������� C/C++�﷨����ʵû������C/C++��������սʱ���ձ��ġ�֪���ɡ���֪�������м��Һ���ĸ�������ٷɻ������ܴ���������˽������˵ĳ���ս������ĸ����ʽ��˼����ʽ�������������ܶ��֡����ſ�Ҳ����ˣ�ֻ��֪��C/C++����ԭ������Ʒ��򣬲���˵����������
+C/C++的 Project 是变化的，每年计算器、矩阵、神经网络都会轮着来。但是其核心，想必我们从上面的描述中已经发现了，“优化——系统——应用”是我们学习这门底层语言的流程。这是它的特性决定的。因此，单纯地掌握 C/C++语法，其实没有入门C/C++。这就像二战时期日本的“知美派”，知道美国有几艘航空母舰、多少飞机并不能打败美国；了解美国人的出击战术、航母部署方式、思考方式，才能真正击败对手。这门课也是如此，只有知道C/C++运行原理、设计法则，才能说掌握了它。
