@@ -1,4 +1,5 @@
 # SUSTech-CS205-CPP-programing
+
 Haibin Lai 12211612
 
 Semester: 2024 Spring
@@ -13,7 +14,7 @@ Lecturer: Prof. Shiqi Yu
 | 4           | A Class to Describe a Matrix        | 矩阵类的设计          | 工程C++是怎么样的，如何设计一个系统，如何管理系统中的各个模块                   | design in the system     | 98       |
 | 5           | GPU Acceleration with CUDA          | CUDA编程          | GPU是什么，加速计算意味着什么，下一代计算机体系结构会是怎么样 的                 | application in system    |     96     |
 
-# 什么是于++？
+## 什么是于++？
 
 这个问题困扰了很多计系学生。一个简单的“Yu”字，意味着给分不确定，不理解，
 高难度。这门课令许多人谈虎色变，以至于我上学期末跟导师谈起，这学期我想选 C/C++时，导师大惊：“万分小心！听说那门课工作量很多！”。然而，我是一个喜欢 Project 的人，我也不喜欢听别人说啥就是啥，5 个 Project 驱使着我加入到了这学期的 100 个倒霉蛋里。但是在三次 Project 结束后，突然有一天我在想，这 5 个 Project 到底意味着什么？我为什么要做这 5 个 Project？
