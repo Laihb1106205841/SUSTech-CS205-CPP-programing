@@ -9,6 +9,7 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | C++17   | :white_check_mark: |
 | C11   | :white_check_mark: |
+| cuda 12.3 | :white_check_mark: |
 
 
 ## Reporting a Vulnerability
