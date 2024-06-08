@@ -1,7 +1,7 @@
 | **Project** | **Name**                            | **Description** | **Important Point**                                | **Classification**       | **Score** |
 |-------------|-------------------------------------|-----------------|----------------------------------------------------|--------------------------|----------|
-| 1           | A Simple Calculator                 | "¼òµ¥"µÄ¼ÆËãÆ÷        | C³ÌĞò³õ²½ÁË½â£¬»ù±¾Êı¾İ½á¹¹µÄÊµÏÖ£¬Êı¾İµÄµ×²ã´æ´¢£¬ÄÚ´æ¹ÜÀí                     | basic idea               | 97       |
-| 2           | Simple Matrix Multiplication        | CºÍJavaµÄÇø±ğ       | CÊÇÈçºÎ±àÒëÓëÔËĞĞµÄ£¬¼ÆËã»úµ×²ãÊÇÔõÃ´ÑùµÄ                              | understanding the system | 99       |
-| 3           | Improved Matrix Multiplication in C | ¾ØÕó³Ë·¨Ì½¾¿          | ÔõÃ´Ñù¸ù¾İÏµÍ³ÓÅ»¯³ÌĞò£¬³£¼ûµÄCÓÅ»¯¼¼Êõ£¬ÈçÑ­»·Õ¹¿ª¡¢¾ØÕóÖØÅÅ¡¢·Ö¿é¡¢SIMDÓëOpenMP²¢ĞĞ¼¼Êõ | boosting in the system   | 98       |
-| 4           | A Class to Describe a Matrix        | ¾ØÕóÀàµÄÉè¼Æ          | ¹¤³ÌC++ÊÇÔõÃ´ÑùµÄ£¬ÈçºÎÉè¼ÆÒ»¸öÏµÍ³£¬ÈçºÎ¹ÜÀíÏµÍ³ÖĞµÄ¸÷¸öÄ£¿é                   | design in the system     | 98       |
-| 5           | GPU Acceleration with CUDA          | CUDA±à³Ì          | GPUÊÇÊ²Ã´£¬¼ÓËÙ¼ÆËãÒâÎ¶×ÅÊ²Ã´£¬ÏÂÒ»´ú¼ÆËã»úÌåÏµ½á¹¹»áÊÇÔõÃ´Ñù µÄ                 | application in system    |     96     |
+| 1           | A Simple Calculator                 | "ç®€å•"çš„è®¡ç®—å™¨        | Cç¨‹åºåˆæ­¥äº†è§£ï¼ŒåŸºæœ¬æ•°æ®ç»“æ„çš„å®ç°ï¼Œæ•°æ®çš„åº•å±‚å­˜å‚¨ï¼Œå†…å­˜ç®¡ç†                     | basic idea               | 97       |
+| 2           | Simple Matrix Multiplication        | Cå’ŒJavaçš„åŒºåˆ«       | Cæ˜¯å¦‚ä½•ç¼–è¯‘ä¸è¿è¡Œçš„ï¼Œè®¡ç®—æœºåº•å±‚æ˜¯æ€ä¹ˆæ ·çš„                              | understanding the system | 99       |
+| 3           | Improved Matrix Multiplication in C | çŸ©é˜µä¹˜æ³•æ¢ç©¶          | æ€ä¹ˆæ ·æ ¹æ®ç³»ç»Ÿä¼˜åŒ–ç¨‹åºï¼Œå¸¸è§çš„Cä¼˜åŒ–æŠ€æœ¯ï¼Œå¦‚å¾ªç¯å±•å¼€ã€çŸ©é˜µé‡æ’ã€åˆ†å—ã€SIMDä¸OpenMPå¹¶è¡ŒæŠ€æœ¯ | boosting in the system   | 98       |
+| 4           | A Class to Describe a Matrix        | çŸ©é˜µç±»çš„è®¾è®¡          | å·¥ç¨‹C++æ˜¯æ€ä¹ˆæ ·çš„ï¼Œå¦‚ä½•è®¾è®¡ä¸€ä¸ªç³»ç»Ÿï¼Œå¦‚ä½•ç®¡ç†ç³»ç»Ÿä¸­çš„å„ä¸ªæ¨¡å—                   | design in the system     | 98       |
+| 5           | GPU Acceleration with CUDA          | CUDAç¼–ç¨‹          | GPUæ˜¯ä»€ä¹ˆï¼ŒåŠ é€Ÿè®¡ç®—æ„å‘³ç€ä»€ä¹ˆï¼Œä¸‹ä¸€ä»£è®¡ç®—æœºä½“ç³»ç»“æ„ä¼šæ˜¯æ€ä¹ˆæ · çš„                 | application in system    |     96     |
