@@ -1,8 +1,8 @@
-# SUSTech-CS205-CPP-programing
+# SUSTech-CS205-CPP-programing 2024 Spring 
 
 Haibin Lai 12211612
 
-Semester: 2024 Spring   Lecturer: Prof. Shiqi Yu
+  Lecturer: Prof. Shiqi Yu
 
 | **Project** | **Name**                            | **Description** | **Important Point**                                | **Classification**       | **Score** |
 |-------------|-------------------------------------|-----------------|----------------------------------------------------|--------------------------|----------|
